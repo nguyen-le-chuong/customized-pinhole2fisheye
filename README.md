@@ -29,8 +29,35 @@ mkdir outputs
 python inspect_coco.py --coco_dir "path_of_fisheye_dataset" --num_examples 5
 ```
 
-| Original image        | Fisheye        |
+<!-- | Original image        | Fisheye        |
 |-----------------|----------------|
 | ![Image 1](outputs/frankfurt_000001_038418_leftImg8bit.png) | ![Image 2](outputs/image(2).png) |
 | Segmentation        | 2d Bouding box        |
-| ![Image 3](outputs/image(1).png) | ![Image 4](outputs/image(3).png) |
+| ![Image 3](outputs/image(1).png) | ![Image 4](outputs/image(3).png) | -->
+
+<table>
+  <tr>
+    <th style="width: 200px; height: 200px; text-align: center;">Original Image</th>
+    <th style="width: 200px; height: 200px; text-align: center;">Fisheye Transformation</th>
+  </tr>
+  <tr>
+    <td style="width: 200px; height: 200px; text-align: center; vertical-align: middle;">
+      <img src="outputs/frankfurt_000001_038418_leftImg8bit.png" alt="Original" style="width: 100%; height: auto;">
+    </td>
+    <td style="width: 200px; height: 200px; text-align: center; vertical-align: middle;">
+      <img src="outputs/image(2).png" alt="Fisheye" style="width: 100%; height: auto;">
+    </td>
+  </tr>
+  <tr>
+    <th style="width: 200px; height: 200px; text-align: center;">Segmentation Output</th>
+    <th style="width: 200px; height: 200px; text-align: center;">2D Bounding Box</th>
+  </tr>
+  <tr>
+    <td style="width: 200px; height: 200px; text-align: center; vertical-align: middle;">
+      <img src="outputs/image(1).png" alt="Segmentation" style="width: 100%; height: auto;">
+    </td>
+    <td style="width: 200px; height: 200px; text-align: center; vertical-align: middle;">
+      <img src="outputs/image(3).png" alt="Bounding Box" style="width: 100%; height: auto;">
+    </td>
+  </tr>
+</table>
