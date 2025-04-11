@@ -42,7 +42,7 @@ python inspect_coco.py --coco_dir "path_of_fisheye_dataset" --num_examples 5
   </tr>
   <tr>
     <td style="width: 200px; height: 200px; text-align: center; vertical-align: middle;">
-      <img src="outputs/frankfurt_000001_038418_leftImg8bit.png" alt="Original" style="width: 50%; height: auto;">
+      <img src="outputs/frankfurt_000001_038418_leftImg8bit.png" alt="Original" style="width: 60%; height: auto;">
     </td>
     <td style="width: 200px; height: 200px; text-align: center; vertical-align: middle;">
       <img src="outputs/image(2).png" alt="Fisheye" style="width: 100%; height: auto;">
@@ -54,7 +54,7 @@ python inspect_coco.py --coco_dir "path_of_fisheye_dataset" --num_examples 5
   </tr>
   <tr>
     <td style="width: 200px; height: 200px; text-align: center; vertical-align: middle;">
-      <img src="outputs/image(1).png" alt="Segmentation" style="width: 100%; height: auto;">
+      <img src="outputs/image(1).png" alt="Segmentation" style="width: 60%; height: auto;">
     </td>
     <td style="width: 200px; height: 200px; text-align: center; vertical-align: middle;">
       <img src="outputs/image(3).png" alt="Bounding Box" style="width: 100%; height: auto;">
