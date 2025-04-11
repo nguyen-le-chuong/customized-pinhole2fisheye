@@ -1,8 +1,6 @@
-
-```markdown
 # Customized Fisheye Augmentation 
 
-This script converts a pinhole dataset to a fisheye dataset, including images, semantic segmentation, instance segmentation, polygons, and 2D bounding boxes. It is compatible with the Cityscape and BDD100K datasets.
+This script converts a pinhole dataset to a fisheye dataset, including images, semantic segmentation, instance segmentation, polygons, and 2D bounding boxes. It is compatible with the Cityscape and BDD100K (pending) datasets.
 
 
 
@@ -36,7 +34,7 @@ Run visualization:
 python inspect_coco.py --coco_dir "path_of_fisheye_dataset" --num_examples 5
 ```
 
-### Sample Visualization
+### Sample
 
 <table>
   <tr>
@@ -64,6 +62,10 @@ python inspect_coco.py --coco_dir "path_of_fisheye_dataset" --num_examples 5
     </td>
   </tr>
 </table>
-```
 
-This is ready to be used as a `README.md` file. You can include it in your repository, and it will render beautifully on platforms like GitHub.
+## Acknowledgements
+
+This repo builds upon the contributions of the following repositories:
+- [FisheyeSeg](https://github.com/Yaozhuwa/FisheyeSeg/tree/master)
+- [cityscapes-to-coco-conversion](https://github.com/TillBeemelmanns/cityscapes-to-coco-conversion)
+
